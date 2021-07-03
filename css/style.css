@@ -154,12 +154,14 @@ header nav {
    
 }
 nav ul{
-    padding-top: 5rem;
+    
     list-style-type: none;
     width: 100%;
 
 }
-
+header nav ul{
+    padding-top: 5rem;
+}
 header nav ul li{
     font-size: 1.3rem;
     padding: 1rem 0;
