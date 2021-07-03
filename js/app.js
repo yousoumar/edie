@@ -11,6 +11,13 @@ headerLinks.forEach((headerLink) =>{
         header.classList.remove('clicked');
     });
 });
+
+if (window.pageYOffset>30){
+    header.style.boxShadow =" 0 0 .2rem black";
+}else{
+    header.style.boxShadow ="none";
+}
+
 window.onscroll = ()=>{
     if (window.pageYOffset>30){
     header.style.boxShadow =" 0 0 .2rem black";
