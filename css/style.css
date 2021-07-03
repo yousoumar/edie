@@ -601,7 +601,7 @@ footer .container{
     max-width: 78rem;
     margin: 0 auto;
     padding: 0 1rem;
-    
+    align-items: flex-start;    
 }
 
 footer .contact h2{
@@ -611,13 +611,13 @@ footer .contact h2{
 footer .social >div:nth-child(1){
     font-size: 2rem;
     color: #2D9CDB;
+    line-height: 1;
+    padding-bottom: .3rem;
 }
 footer >p{
-    margin-top: 7rem;
+    margin-top: 5rem;
     font-weight: 500;
     font-size: .8rem;
-    line-height: 17px;
-    /* identical to box height */
     text-align: center;
 
     color: #F2F2F2;
@@ -635,7 +635,6 @@ footer p a{
 }
 @media all and (min-width : 1024px){
     footer .container{
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 3rem;
     }
